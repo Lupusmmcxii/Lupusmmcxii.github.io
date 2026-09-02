@@ -7,11 +7,69 @@ body {
   background: #947706;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
-}
 
 #all-contents {
   max-width: 1500px;
   min-height: 100vh;
   margin: 0 auto;
   padding: 32px 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 16px 24px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  }
+  
+  nav h1 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #000;
+  }
+  
+  #nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .nav-li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition:
+  background 0.25s ease,
+  color 0.25s ease;
+  }
+  
+  .nav-li a:hover {
+  background: #000;
+  color: #fff;
+  }
+  body {
+  background-image: url("https://assets.warhammer-community.com/11d-1728120756.jpg")
+}
+
+.box{
+  background-color: black;
+  
+  color: green;
+  
+  width: 80%;
+  
+  margin: 50px auto;
+  
+  padding: 30px;
 }
